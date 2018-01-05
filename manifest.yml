@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-test-app-nodejs
+  memory: 512M
+  instances: 1
+  random-route: true
+  host: cf-test-app-nodejs
+  buildpack: nodejs_buildpack
